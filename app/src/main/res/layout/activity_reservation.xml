@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReservationActivity">
+
+    <ImageView
+        android:id="@+id/reser_cover"
+        android:layout_width="317dp"
+        android:layout_height="264dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/reservation_pic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-32dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="315dp"
+        android:layout_height="227dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reser_cover" />
+
+    <Button
+        android:id="@+id/btnTimeSlot"
+        android:layout_width="176dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="48dp"
+        android:text="Choose Time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955669247271",
+    "project_id": "libraroom-912cd",
+    "storage_bucket": "libraroom-912cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955669247271:android:8f5ad2c81042ca0ee12502",
+        "android_client_info": {
+          "package_name": "com.libraroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955669247271-l6v4ls5bjdtobisp304qpkrfspfhqf15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD629ZjxzEjWgnFRQMA_WPf1zEwQVuOKLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955669247271-l6v4ls5bjdtobisp304qpkrfspfhqf15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
